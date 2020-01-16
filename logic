@@ -1,0 +1,10 @@
+prompt="enter the poem lines!!"
+prompt+="enter 'quit' the poem"
+
+line=''
+poem=''
+while line != 'quit':
+line+=input(prompt)
+poem+=line
+poem+='\n'
+print(poem.replace('quit',''))
